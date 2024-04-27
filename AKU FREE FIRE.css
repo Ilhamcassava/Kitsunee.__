@@ -1,0 +1,66 @@
+*,
+html,
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Jacquard 12 Charted", system-ui;
+}
+
+:root{
+    --bg-secondary: #eaeaea;
+    --txt-primary: #0c0b0b;
+    --txt-secondary:#222222;
+    --icons-bg-primay: tomato;
+    --icons-bg-secondary: #0d0f0f;
+}
+
+.sake{
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    background-color: var(--bg-primary);
+}
+
+.sushi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.nabe{
+    width: 40%;
+    border: 1px solid white;
+    background-image: url(umi.png);
+    color: var();
+    padding: 32px;
+    margin: 8px;
+    box-shadow: 2px 2px 2px 2px rgb(0, 0, 0, 0.5);
+}
+
+.text-center{
+    text-align: center;
+}
+
+.ayakashi{
+    font-size: 2em;
+}
+
+.icons{
+    margin-top: 8px;
+    font-size: 24px;
+    color: var(--icons-bg-primay);
+}
+
+.ramen{
+    margin-top: 8px;
+    font-size: 5em;
+}
+
+
+
+@media  screen and (max-width: 476px) {
+    .nabe{
+        width: 95%;
+    }
+}
